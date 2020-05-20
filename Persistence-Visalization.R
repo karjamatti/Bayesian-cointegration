@@ -1,5 +1,5 @@
 #' --------------------------------------
-#' A BAYESIAN COINTEGRATION TESTING PROCEDURE WITH CONDITIONAL PRIOR ODDS - DATA VISUALIZATION
+#' A BAYESIAN COINTEGRATION TESTING PROCEDURE WITH CONDITIONAL PRIOR ODDS - VISUALIZATION OF PERSISTENCE
 #' --------------------------------------
 
 # Load or install and load packages
@@ -22,7 +22,7 @@
 #'----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 dashline <- '--------------------------------------------------' # Used as a separator when printing out Script execution status 
-GLOBAL.uselog = FALSE
+GLOBAL.uselog = FALSE # Use log/regular price paths
 p.freq = 6
 N <- 9
 thresholds <- seq(from = 1, to = 50, by = 0.5)
